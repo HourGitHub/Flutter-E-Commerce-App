@@ -8,10 +8,19 @@ version: 1.0.0+1
 environment:
   sdk: '>=3.4.3 <4.0.0'
 
+
+#------------ PACKAGES ----------------#
+
 dependencies:
   flutter:
     sdk: flutter
 
+
+# Utility Packages
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
 
   # Icons
   iconsax: ^0.0.8
@@ -19,6 +28,7 @@ dependencies:
 
   # Stote Management
   get: ^4.6.5
+  get_storage: ^2.1.1
 
   # Product Specific
 
